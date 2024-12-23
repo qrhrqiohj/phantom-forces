@@ -20,9 +20,9 @@ def get_valid_input(prompt, valid_values=None):
             if valid_values is None or int(user_input) in valid_values:
                 return int(user_input)
             else:
-                print(f"{Fore.RED}\nInvalid option. Please choose from {valid_values}.{Style.RESET_ALL}")
+                print(f"{Fore.RED}\nInvalid option. Please choose from {valid_values}.\n{Style.RESET_ALL}")
         except ValueError:
-            print(f"{Fore.RED}\nInvalid input. Please enter a valid number.{Style.RESET_ALL}")
+            print(f"{Fore.RED}\nInvalid input. Please enter a valid number.\n{Style.RESET_ALL}")
 
 
 def push(json_data, start_key, start_key2, addon, addon2, skip):
