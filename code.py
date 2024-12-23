@@ -113,8 +113,9 @@ def run(json_data, start_key, start_key2, addon, addon2, skip):
                                         f"4: {Fore.GREEN}clear delta black ring{Style.RESET_ALL}\n"
                                         f"5: {Fore.GREEN}remove sniper black circle{Style.RESET_ALL}\n"
                                         f"6: {Fore.GREEN}remove glass hack border{Style.RESET_ALL}\n"
+                                        f"7: {Fore.GREEN}make oled good{Style.RESET_ALL}\n"
                                         f"Type 'back' to return to the previous menu.\n: ",
-                                        valid_values=[1, 2, 3, 4, 5, 6]
+                                        valid_values=[1, 2, 3, 4, 5, 6, 7]
                                     )
                                     if sightbackground == 'back':
                                         print(f"{Fore.CYAN}\nReturning to sight options.{Style.RESET_ALL}")
@@ -145,6 +146,16 @@ def run(json_data, start_key, start_key2, addon, addon2, skip):
                                             addon = '1764672fe43c9f1d129b3d51dc3c40ee'
                                             addon2 = '75205be5a167842c7ed931d9d5a904ca'
                                             return json_data, start_key, start_key2, addon, addon2, skip
+                                        case 7:
+                                            addon = '97d2da0d7a507151b10988ba762a7061'
+                                            addon2 = 'bf8e63c3b7a7deeb0011a164c50f943f'
+                                            push(json_data, start_key, start_key2, addon, addon2, skip)
+                                            addon = '0fd98b21b47dbd948988ec1c67696af8'
+                                            addon2 = '5873cfba79134ecfec6658f559d8f320'
+                                            push(json_data, start_key, start_key2, addon, addon2, skip)
+                                            addon = '009b0b998ae084f23e5c0d7b1f9431b3'
+                                            addon2 = '577f6c95249ebea2926892c3f3e8c040'                                            
+                                            return json_data, start_key, start_key2, addon, addon2, skip                                            
                             case 3:
                                 addon = "0847bd551fe2cbe953a3c3670eac79b1"
                                 start_key2 = "ballistics tracker"
