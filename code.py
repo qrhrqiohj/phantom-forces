@@ -198,7 +198,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                         print(f"{Fore.CYAN}\nReturning to Arm Options.\n{Style.RESET_ALL}")
                                         break
 
-                                    match arm_option:
+                                    match bone_arm_option:
                                         case 1:
                                             while True:
                                                 lbone_arm_option = get_valid_input(
@@ -213,7 +213,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                                     print(f"{Fore.CYAN}\nReturning to Bone Arm Options.\n{Style.RESET_ALL}")
                                                     break
 
-                                                match arm_option:
+                                                match lbone_arm_option:
                                                     case 1:
                                                         addon = "c0975ad2729339e86a60acac5e5d5867"
                                                         addon2 = "aa453084baf61e05bb0b761511f8b80a"
@@ -236,7 +236,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                                     print(f"{Fore.CYAN}\nReturning to Bone Arm Options.\n{Style.RESET_ALL}")
                                                     break
 
-                                                match arm_option:
+                                                match rbone_arm_option:
                                                     case 1:
                                                         addon = "b1c7ea393774f19f9ed47f21e453a0f2"
                                                         addon2 = "257dc7573ff26a51dc732eba6e0e0082"
