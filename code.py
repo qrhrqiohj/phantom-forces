@@ -165,9 +165,10 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                         arm_option = get_valid_input(
                             f"\nEnter arm option:\n"
                             f"1: {Fore.GREEN}Remove options{Style.RESET_ALL}\n"
-                            f"2: {Fore.GREEN}Bone arms{Style.RESET_ALL}\n"
+                            f"2: {Fore.GREEN}Reflective sleeves{Style.RESET_ALL}\n"
+                            f"3: {Fore.GREEN}Bone arms{Style.RESET_ALL}\n"
                             f"Type 'back' to return to the previous menu.\n: ",
-                            valid_values=[1, 2]
+                            valid_values=[1, 2, 3]
                         )
 
                         if arm_option == 'back':
@@ -180,6 +181,10 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                 addon2 = "5873cfba79134ecfec6658f559d8f320"
                                 return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                             case 2:
+                                addon = ["8813bbc8c0f7c0901fc38c1c85935fec", "da00c2a2bba51d962b29423c25b28bd3", "60a99d5ab2dbf24f654b93b731f720c7", "6e649a3ad144c63298bafb5f0583ed7d"]
+                                start_key2 = "remove"
+                                return
+                            case 3:
                                 start_key = "bare arms"
                                 addon2 = "5873cfba79134ecfec6658f559d8f320"
                                 return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
