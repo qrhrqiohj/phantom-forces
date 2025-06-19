@@ -201,7 +201,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                     match arm_option:
                                         case 1:
                                             while True:
-                                                bone_arm_option = get_valid_input(
+                                                lbone_arm_option = get_valid_input(
                                                     f"\nEnter arm option:\n"
                                                     f"1: {Fore.GREEN}Left Bone{Style.RESET_ALL}\n"
                                                     f"2: {Fore.GREEN}Left Sleeve{Style.RESET_ALL}\n"
@@ -209,7 +209,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                                     valid_values=[1, 2]
                                                 )
 
-                                                if bone_arm_option == 'back':
+                                                if lbone_arm_option == 'back':
                                                     print(f"{Fore.CYAN}\nReturning to Bone Arm Options.\n{Style.RESET_ALL}")
                                                     break
 
@@ -224,7 +224,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                                         return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                                         case 2:
                                             while True:
-                                                bone_arm_option = get_valid_input(
+                                                rbone_arm_option = get_valid_input(
                                                     f"\nEnter arm option:\n"
                                                     f"1: {Fore.GREEN}Right Bone{Style.RESET_ALL}\n"
                                                     f"2: {Fore.GREEN}Right Sleeve{Style.RESET_ALL}\n"
@@ -232,7 +232,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                                     valid_values=[1, 2]
                                                 )
 
-                                                if bone_arm_option == 'back':
+                                                if rbone_arm_option == 'back':
                                                     print(f"{Fore.CYAN}\nReturning to Bone Arm Options.\n{Style.RESET_ALL}")
                                                     break
 
