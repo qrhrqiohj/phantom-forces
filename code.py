@@ -185,9 +185,66 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                 start_key2 = "remove"
                                 return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                             case 3:
-                                start_key = "bare arms"
-                                addon2 = "5873cfba79134ecfec6658f559d8f320"
-                                return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                                while True:
+                                    bone_arm_option = get_valid_input(
+                                        f"\nEnter arm option:\n"
+                                        f"1: {Fore.GREEN}Left Arms{Style.RESET_ALL}\n"
+                                        f"2: {Fore.GREEN}Right Arms{Style.RESET_ALL}\n"
+                                        f"Type 'back' to return to the previous menu.\n: ",
+                                        valid_values=[1, 2]
+                                    )
+
+                                    if bone_arm_option == 'back':
+                                        print(f"{Fore.CYAN}\nReturning to Arm Options.\n{Style.RESET_ALL}")
+                                        break
+
+                                    match arm_option:
+                                        case 1:
+                                            while True:
+                                                bone_arm_option = get_valid_input(
+                                                    f"\nEnter arm option:\n"
+                                                    f"1: {Fore.GREEN}Left Bone{Style.RESET_ALL}\n"
+                                                    f"2: {Fore.GREEN}Left Sleeve{Style.RESET_ALL}\n"
+                                                    f"Type 'back' to return to the previous menu.\n: ",
+                                                    valid_values=[1, 2]
+                                                )
+
+                                                if bone_arm_option == 'back':
+                                                    print(f"{Fore.CYAN}\nReturning to Bone Arm Options.\n{Style.RESET_ALL}")
+                                                    break
+
+                                                match arm_option:
+                                                    case 1:
+                                                        addon = "c0975ad2729339e86a60acac5e5d5867"
+                                                        addon2 = "aa453084baf61e05bb0b761511f8b80a"
+                                                        return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                                                    case 2:
+                                                        addon = "ff874e07a882070ea5cb0c3369e4d269"
+                                                        addon2 = "92592c4baca15cecf4dd5bbe2b36e7f2"
+                                                        return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                                        case 2:
+                                            while True:
+                                                bone_arm_option = get_valid_input(
+                                                    f"\nEnter arm option:\n"
+                                                    f"1: {Fore.GREEN}Right Bone{Style.RESET_ALL}\n"
+                                                    f"2: {Fore.GREEN}Right Sleeve{Style.RESET_ALL}\n"
+                                                    f"Type 'back' to return to the previous menu.\n: ",
+                                                    valid_values=[1, 2]
+                                                )
+
+                                                if bone_arm_option == 'back':
+                                                    print(f"{Fore.CYAN}\nReturning to Bone Arm Options.\n{Style.RESET_ALL}")
+                                                    break
+
+                                                match arm_option:
+                                                    case 1:
+                                                        addon = "b1c7ea393774f19f9ed47f21e453a0f2"
+                                                        addon2 = "257dc7573ff26a51dc732eba6e0e0082"
+                                                        return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
+                                                    case 2:
+                                                        addon = "ce07937636c1d66eb9db095dd0098b37"
+                                                        addon2 = "feb772c183ba7cd5526e344b258980a6"
+                                                        return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 3:
                     addon = "8813bbc8c0f7c0901fc38c1c85935fec"
                     start_key2 = "skins"
