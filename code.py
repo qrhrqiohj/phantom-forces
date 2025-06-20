@@ -110,7 +110,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                         f"1: {Fore.GREEN}clear coyote blue background{Style.RESET_ALL}\n"
                                         f"2: {Fore.GREEN}clear reflex blue background{Style.RESET_ALL}\n"
                                         f"3: {Fore.GREEN}clear okp-7 blue background{Style.RESET_ALL}\n"
-                                        f"4: {Fore.GREEN}clear delta black ring{Style.RESET_ALL}\n"
+                                        f"4: {Fore.GREEN}clear black ring{Style.RESET_ALL}\n"
                                         f"5: {Fore.GREEN}remove sniper black circle{Style.RESET_ALL}\n"
                                         f"6: {Fore.GREEN}remove glass hack border{Style.RESET_ALL}\n"
                                         f"7: {Fore.GREEN}make oled good{Style.RESET_ALL}\n"
