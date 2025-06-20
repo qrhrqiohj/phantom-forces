@@ -286,7 +286,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                     start_key2 = "replacement sounds"
                     return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 8:
-                    addon = "8194373fb18740071f5e885bab349252"
+                    addon = "602e49f80440cdb859fab7182ea4bb23"
                     start_key2 = "gun smoke"
                     return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 9:
