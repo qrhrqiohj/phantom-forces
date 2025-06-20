@@ -144,7 +144,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                             return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                                         case 6:
                                             addon = '71718d43e373e3633f4ff3b70ec19cf7'
-                                            addon2 = '75205be5a167842c7ed931d9d5a904ca'
+                                            addon2 = '5873cfba79134ecfec6658f559d8f320'
                                             return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                                         case 7:
                                             addon = '0f621cf9866d643421f0292a85f9be98'
