@@ -157,7 +157,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                             addon2 = '577f6c95249ebea2926892c3f3e8c040'                                            
                                             return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names                                            
                             case 3:
-                                addon = "0847bd551fe2cbe953a3c3670eac79b1"
+                                addon = "66a3dd9c1d934ad0ffb5d45729c44250"
                                 start_key2 = "ballistics tracker"
                                 return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 2:
