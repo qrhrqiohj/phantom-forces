@@ -29,7 +29,6 @@ def push(json_data, start_key, start_key2, addon, addon2, skip, game_pre, displa
     main_module = sys.modules['__main__']
     main_module.backbone(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names)
 
-
 def bloxstrap():
     base_path = os.path.join(os.getenv('LOCALAPPDATA'), 'Bloxstrap', 'Modifications')
     nested_folders = ["PlatformContent", "pc", "textures", "sky"]
@@ -240,7 +239,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                                                         addon2 = "feb772c183ba7cd5526e344b258980a6"
                                                         return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 3:
-                    addon = "8813bbc8c0f7c0901fc38c1c85935fec"
+                    addon = "ac95c4dbcb1a5ec120bc64b369d41fc3"
                     start_key2 = "skins"
                     return json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names
                 case 4:
