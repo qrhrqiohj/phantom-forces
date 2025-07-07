@@ -53,7 +53,6 @@ def bootstrapper():
         print("All folders created successfully! Import your skyboxes into the opened folder.")
         os.startfile(path)
 
-
 def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display_names):
 
     while True:
