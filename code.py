@@ -57,7 +57,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
 
     while True:
         options = get_valid_input(
-                        f">> {Fore.MAGENTA}Due to PFs custom anticheat, any sound that is longer than its replacement sound wont play{Style.RESET_ALL} <<"
+                        f">> {Fore.MAGENTA}Due to PFs custom anticheat, any sound that is longer than its replacement sound wont play{Style.RESET_ALL} <<\n"
                         f"Asset replacements:\n"
                         f"0:  {Fore.GREEN}Custom{Style.RESET_ALL}\n"
                         f"1:  {Fore.GREEN}Sights{Style.RESET_ALL}\n"
