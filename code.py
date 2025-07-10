@@ -1120,11 +1120,11 @@ if __name__ == "__main__":
 {Fore.YELLOW}Contributed to by:{Style.RESET_ALL} 
     - etcy {Fore.BLUE}@3tcy{Style.RESET_ALL} (run.bat)
     - yolo {Fore.BLUE}@yoloblokers{Style.RESET_ALL} (maintaining)
-    - mo   {Fore.BLUE}@modraws{Style.RESET_ALL} (maintaining)
+    - zo0x {Fore.BLUE}@.o0x{Style.RESET_ALL} (maintaining)
 {Fore.YELLOW}Thanks to the community for supporting this project!{Style.RESET_ALL}
     - All of your supported and continued enthusiasm despite issues I may impose - Tyler
 {Fore.YELLOW}Special thanks to server boosters:{Style.RESET_ALL}
-    - {Fore.MAGENTA}@.ecr{Style.RESET_ALL}, {Fore.MAGENTA}@brigh.t{Style.RESET_ALL}, {Fore.MAGENTA}@gotchylds{Style.RESET_ALL}, {Fore.MAGENTA}@ihopethish_rts{Style.RESET_ALL}, {Fore.MAGENTA}@quad_tank{Style.RESET_ALL}, {Fore.MAGENTA}@riiftt{Style.RESET_ALL}, {Fore.MAGENTA}@slithercrip{Style.RESET_ALL}
+    - {Fore.MAGENTA}@motion_7{Style.RESET_ALL}, {Fore.MAGENTA}@.o0x{Style.RESET_ALL}, {Fore.MAGENTA}@brigh.t{Style.RESET_ALL}, {Fore.MAGENTA}@corasyn{Style.RESET_ALL}, {Fore.MAGENTA}@er0der{Style.RESET_ALL}, {Fore.MAGENTA}@dr_gonfxre{Style.RESET_ALL}, {Fore.MAGENTA}@moldybiscuit73{Style.RESET_ALL}, {Fore.MAGENTA}@riiftt{Style.RESET_ALL}, {Fore.MAGENTA}@yoloblokers{Style.RESET_ALL}
 
 Enter to return: """
                     )
