@@ -71,6 +71,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                         f"9:  {Fore.GREEN}Hit tweaks{Style.RESET_ALL}\n"
                         f"10: {Fore.GREEN}Grenade tweaks{Style.RESET_ALL}\n"
                         f"11: {Fore.GREEN}Misc tweaks{Style.RESET_ALL}\n"
+                        f"{Fore.CYAN}</> : Due to PFs custom anticheat, any sound that is longer than its replacement will be silent{Style.RESET_ALL}\n"
                         f"Type 'back' to return to the previous menu.\n: ",
                         valid_values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
         )
