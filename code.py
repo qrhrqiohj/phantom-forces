@@ -65,7 +65,7 @@ def run(json_data, start_key, start_key2, addon, addon2, skip, game_pre, display
                         f"3:  {Fore.GREEN}Sleeves{Style.RESET_ALL}\n"
                         f"4:  {Fore.GREEN}No textures{Style.RESET_ALL}\n"
                         f"5:  {Fore.GREEN}Default skyboxes{Style.RESET_ALL}\n"
-                        f"6:  {Fore.GREEN}Gun skins{Style.RESET_ALL}\n"
+                        f"6:  {Fore.GREEN}Gun skins TEMPORARILY DEPRECATED{Style.RESET_ALL}\n"
                         f"7:  {Fore.GREEN}Gun Sounds{Style.RESET_ALL}\n"
                         f"8:  {Fore.GREEN}Gun smoke{Style.RESET_ALL}\n"
                         f"9:  {Fore.GREEN}Hit tweaks{Style.RESET_ALL}\n"
